@@ -1,0 +1,504 @@
+2020-11-10 14:27:19.535  INFO 17753 --- [main] xyz.scada.testbed.node.Main              : Starting Main v1.0 on peter-Lenovo-ideapad-320-15IKB with PID 17753 (/home/peter/Documents/WORK/ICS-TestBed-Framework/node/target/node-1.0.jar started by peter in /home/peter/Documents/WORK/ICS-TestBed-Framework)
+2020-11-10 14:27:19.554  INFO 17753 --- [main] xyz.scada.testbed.node.Main              : No active profile set, falling back to default profiles: default
+2020-11-10 14:27:19.663  INFO 17753 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@48a242ce: startup date [Tue Nov 10 14:27:19 CET 2020]; root of context hierarchy
+2020-11-10 14:27:22.450  INFO 17753 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-11-10 14:27:22.482  INFO 17753 --- [main] xyz.scada.testbed.node.Main              : Started Main in 3.668 seconds (JVM running for 4.436)
+2020-11-10 21:29:27.189  INFO 17753 --- [Thread-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@48a242ce: startup date [Tue Nov 10 14:27:19 CET 2020]; root of context hierarchy
+2020-11-10 21:29:27.204  INFO 17753 --- [Thread-1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-11-10 21:31:45.289  INFO 4264 --- [main] xyz.scada.testbed.node.Main              : Starting Main v1.0 on peter-Lenovo-ideapad-320-15IKB with PID 4264 (/home/peter/Documents/WORK/ICS-TestBed-Framework/node/target/node-1.0.jar started by peter in /home/peter/Documents/WORK/ICS-TestBed-Framework)
+2020-11-10 21:31:45.301  INFO 4264 --- [main] xyz.scada.testbed.node.Main              : No active profile set, falling back to default profiles: default
+2020-11-10 21:31:45.414  INFO 4264 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@71d15f18: startup date [Tue Nov 10 21:31:45 CET 2020]; root of context hierarchy
+2020-11-10 21:31:47.719  INFO 4315 --- [main] xyz.scada.testbed.node.Main              : Starting Main v1.0 on peter-Lenovo-ideapad-320-15IKB with PID 4315 (/home/peter/Documents/WORK/ICS-TestBed-Framework/node/target/node-1.0.jar started by peter in /home/peter/Documents/WORK/ICS-TestBed-Framework)
+2020-11-10 21:31:47.731  INFO 4315 --- [main] xyz.scada.testbed.node.Main              : No active profile set, falling back to default profiles: default
+2020-11-10 21:31:47.871  INFO 4315 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@530612ba: startup date [Tue Nov 10 21:31:47 CET 2020]; root of context hierarchy
+2020-11-10 21:31:48.533  INFO 4264 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-11-10 21:31:48.582  INFO 4264 --- [main] xyz.scada.testbed.node.Main              : Started Main in 4.131 seconds (JVM running for 4.936)
+2020-11-10 21:31:50.143  INFO 4315 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-11-10 21:31:50.169  INFO 4315 --- [main] xyz.scada.testbed.node.Main              : Started Main in 3.866 seconds (JVM running for 4.977)
+2020-11-10 21:31:52.518  INFO 4315 --- [main] xyz.scada.testbed.node.RTU               :  RTU Server started!
+2020-11-10 21:31:54.826  INFO 4264 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   : [TID19] Connecting to: 127.0.0.1:2,404
+2020-11-10 21:31:54.847  INFO 4264 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   : [TID19] Successfully connected
+2020-11-10 21:31:54.851  INFO 4315 --- [pool-1-thread-1] xyz.scada.testbed.node.RTU               :  Client Connected ID:1
+2020-11-10 21:31:59.855 ERROR 4315 --- [pool-1-thread-1] xyz.scada.testbed.node.RTU               : null
+2020-11-10 21:31:59.857  INFO 4315 --- [pool-1-thread-1] xyz.scada.testbed.node.RTU               :  Handshake complete for ID:1
+2020-11-10 21:32:11.354 ERROR 4315 --- [main] xyz.scada.testbed.node.RTU               : Unable to start listening: Address already in use (Bind failed)
+2020-11-10 21:32:16.014  INFO 4264 --- [Thread-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@71d15f18: startup date [Tue Nov 10 21:31:45 CET 2020]; root of context hierarchy
+2020-11-10 21:32:16.030  INFO 4264 --- [Thread-1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-11-10 21:32:22.864  INFO 4401 --- [main] xyz.scada.testbed.node.Main              : Starting Main v1.0 on peter-Lenovo-ideapad-320-15IKB with PID 4401 (/home/peter/Documents/WORK/ICS-TestBed-Framework/node/target/node-1.0.jar started by peter in /home/peter/Documents/WORK/ICS-TestBed-Framework)
+2020-11-10 21:32:22.872  INFO 4401 --- [main] xyz.scada.testbed.node.Main              : No active profile set, falling back to default profiles: default
+2020-11-10 21:32:22.976  INFO 4401 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@de3a06f: startup date [Tue Nov 10 21:32:22 CET 2020]; root of context hierarchy
+2020-11-10 21:32:25.068  INFO 4435 --- [main] xyz.scada.testbed.node.Main              : Starting Main v1.0 on peter-Lenovo-ideapad-320-15IKB with PID 4435 (/home/peter/Documents/WORK/ICS-TestBed-Framework/node/target/node-1.0.jar started by peter in /home/peter/Documents/WORK/ICS-TestBed-Framework)
+2020-11-10 21:32:25.079  INFO 4435 --- [main] xyz.scada.testbed.node.Main              : No active profile set, falling back to default profiles: default
+2020-11-10 21:32:25.196  INFO 4435 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f71c76a: startup date [Tue Nov 10 21:32:25 CET 2020]; root of context hierarchy
+2020-11-10 21:32:25.984  INFO 4401 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-11-10 21:32:26.041  INFO 4401 --- [main] xyz.scada.testbed.node.Main              : Started Main in 4.081 seconds (JVM running for 4.836)
+2020-11-10 21:32:27.581  INFO 4435 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-11-10 21:32:27.604  INFO 4435 --- [main] xyz.scada.testbed.node.Main              : Started Main in 3.802 seconds (JVM running for 4.857)
+2020-11-10 21:32:28.498  INFO 4401 --- [main] xyz.scada.testbed.node.RTU               :  RTU Server started!
+2020-11-10 21:32:37.755  INFO 4435 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   : [TID19] Connecting to: 127.0.0.1:2,404
+2020-11-10 21:32:37.779  INFO 4435 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   : [TID19] Successfully connected
+2020-11-10 21:32:37.782  INFO 4401 --- [pool-1-thread-1] xyz.scada.testbed.node.RTU               :  Client Connected ID:1
+2020-11-10 21:32:41.085  INFO 4435 --- [Thread-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f71c76a: startup date [Tue Nov 10 21:32:25 CET 2020]; root of context hierarchy
+2020-11-10 21:32:41.098  INFO 4435 --- [Thread-1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-11-10 21:32:42.786 ERROR 4401 --- [pool-1-thread-1] xyz.scada.testbed.node.RTU               : null
+2020-11-10 21:32:42.787  INFO 4401 --- [pool-1-thread-1] xyz.scada.testbed.node.RTU               :  Handshake complete for ID:1
+2020-11-10 21:34:49.776  INFO 4911 --- [main] xyz.scada.testbed.node.Main              : Starting Main v1.0 on peter-Lenovo-ideapad-320-15IKB with PID 4911 (/home/peter/Documents/WORK/ICS-TestBed-Framework/node/target/node-1.0.jar started by peter in /home/peter/Documents/WORK/ICS-TestBed-Framework)
+2020-11-10 21:34:49.787  INFO 4911 --- [main] xyz.scada.testbed.node.Main              : No active profile set, falling back to default profiles: default
+2020-11-10 21:34:49.888  INFO 4911 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@32464a14: startup date [Tue Nov 10 21:34:49 CET 2020]; root of context hierarchy
+2020-11-10 21:34:51.946  INFO 4911 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-11-10 21:34:51.981  INFO 4911 --- [main] xyz.scada.testbed.node.Main              : Started Main in 3.067 seconds (JVM running for 3.848)
+2020-11-10 21:34:53.521  INFO 4959 --- [main] xyz.scada.testbed.node.Main              : Starting Main v1.0 on peter-Lenovo-ideapad-320-15IKB with PID 4959 (/home/peter/Documents/WORK/ICS-TestBed-Framework/node/target/node-1.0.jar started by peter in /home/peter/Documents/WORK/ICS-TestBed-Framework)
+2020-11-10 21:34:53.530  INFO 4959 --- [main] xyz.scada.testbed.node.Main              : No active profile set, falling back to default profiles: default
+2020-11-10 21:34:53.608  INFO 4959 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5e57643e: startup date [Tue Nov 10 21:34:53 CET 2020]; root of context hierarchy
+2020-11-10 21:34:55.730  INFO 4959 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-11-10 21:34:55.755  INFO 4959 --- [main] xyz.scada.testbed.node.Main              : Started Main in 3.141 seconds (JVM running for 4.078)
+2020-11-10 21:34:55.996  INFO 4911 --- [main] xyz.scada.testbed.node.RTU               :  RTU Server started!
+2020-11-10 21:34:58.482  INFO 4959 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   : [TID19] Connecting to: 127.0.0.1:2,404
+2020-11-10 21:34:58.517  INFO 4911 --- [pool-1-thread-1] xyz.scada.testbed.node.RTU               :  Client Connected ID:1
+2020-11-10 21:34:58.522  INFO 4911 --- [pool-1-thread-1] xyz.scada.testbed.node.RTU               :  Handshake complete for ID:1
+2020-11-10 21:34:58.524  INFO 4959 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   : [TID19] Successfully connected
+2020-11-10 21:34:58.526  INFO 4911 --- [Thread-5] xyz.scada.testbed.node.RTU               :  Connection ID:1 closed. Socket was closed by remote host.
+2020-11-10 21:35:10.003  INFO 4959 --- [Thread-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5e57643e: startup date [Tue Nov 10 21:34:53 CET 2020]; root of context hierarchy
+2020-11-10 21:35:10.018  INFO 4959 --- [Thread-1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-11-10 21:36:08.802  INFO 5268 --- [main] xyz.scada.testbed.node.Main              : Starting Main v1.0 on peter-Lenovo-ideapad-320-15IKB with PID 5268 (/home/peter/Documents/WORK/ICS-TestBed-Framework/node/target/node-1.0.jar started by peter in /home/peter/Documents/WORK/ICS-TestBed-Framework)
+2020-11-10 21:36:08.814  INFO 5268 --- [main] xyz.scada.testbed.node.Main              : No active profile set, falling back to default profiles: default
+2020-11-10 21:36:08.939  INFO 5268 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d8314f0: startup date [Tue Nov 10 21:36:08 CET 2020]; root of context hierarchy
+2020-11-10 21:36:10.053  INFO 5301 --- [main] xyz.scada.testbed.node.Main              : Starting Main v1.0 on peter-Lenovo-ideapad-320-15IKB with PID 5301 (/home/peter/Documents/WORK/ICS-TestBed-Framework/node/target/node-1.0.jar started by peter in /home/peter/Documents/WORK/ICS-TestBed-Framework)
+2020-11-10 21:36:10.065  INFO 5301 --- [main] xyz.scada.testbed.node.Main              : No active profile set, falling back to default profiles: default
+2020-11-10 21:36:10.182  INFO 5301 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@50de0926: startup date [Tue Nov 10 21:36:10 CET 2020]; root of context hierarchy
+2020-11-10 21:36:12.026  INFO 5268 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-11-10 21:36:12.064  INFO 5268 --- [main] xyz.scada.testbed.node.Main              : Started Main in 4.583 seconds (JVM running for 5.396)
+2020-11-10 21:36:12.935  INFO 5301 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-11-10 21:36:12.967  INFO 5301 --- [main] xyz.scada.testbed.node.Main              : Started Main in 4.234 seconds (JVM running for 5.496)
+2020-11-10 21:36:14.055  INFO 5268 --- [main] xyz.scada.testbed.node.RTU               :  RTU Server started!
+2020-11-10 21:36:16.112  INFO 5301 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   : [TID19] Connecting to: 127.0.0.1:2,404
+2020-11-10 21:36:16.144  INFO 5268 --- [pool-1-thread-1] xyz.scada.testbed.node.RTU               :  Client Connected ID:1
+2020-11-10 21:36:16.149  INFO 5268 --- [pool-1-thread-1] xyz.scada.testbed.node.RTU               :  Handshake complete for ID:1
+2020-11-10 21:36:16.151  INFO 5301 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   : [TID19] Successfully connected
+2020-11-10 21:36:16.174  INFO 5301 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: C_IC_NA_1|UNKNOWN_COMMON_ADDRESS_OF_ASDU
+	Type ID: 100, C_IC_NA_1, Interrogation command
+Cause of transmission: UNKNOWN_COMMON_ADDRESS_OF_ASDU, test: false, negative con: true
+Originator address: 0, Common address: 10
+IOA: 0
+Qualifier of interrogation: 20
+2020-11-10 21:36:16.175  INFO 5301 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@28c92114
+2020-11-10 21:36:16.176  INFO 5301 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: C_IC_NA_1|UNKNOWN_COMMON_ADDRESS_OF_ASDU
+	Type ID: 100, C_IC_NA_1, Interrogation command
+Cause of transmission: UNKNOWN_COMMON_ADDRESS_OF_ASDU, test: false, negative con: true
+Originator address: 0, Common address: 10
+IOA: 0
+Qualifier of interrogation: 20
+2020-11-10 21:36:16.176  INFO 5301 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@260eca7d
+2020-11-10 21:36:25.509  INFO 5268 --- [Thread-5] xyz.scada.testbed.node.RTU               :  Connection ID:1 closed. Socket was closed by remote host.
+2020-11-10 21:39:02.921  INFO 5736 --- [main] xyz.scada.testbed.node.Main              : Starting Main v1.0 on peter-Lenovo-ideapad-320-15IKB with PID 5736 (/home/peter/Documents/WORK/ICS-TestBed-Framework/node/target/node-1.0.jar started by peter in /home/peter/Documents/WORK/ICS-TestBed-Framework)
+2020-11-10 21:39:02.931  INFO 5736 --- [main] xyz.scada.testbed.node.Main              : No active profile set, falling back to default profiles: default
+2020-11-10 21:39:03.036  INFO 5736 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4f51b3e0: startup date [Tue Nov 10 21:39:03 CET 2020]; root of context hierarchy
+2020-11-10 21:39:05.406  INFO 5736 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-11-10 21:39:05.438  INFO 5736 --- [main] xyz.scada.testbed.node.Main              : Started Main in 3.386 seconds (JVM running for 4.21)
+2020-11-10 21:39:06.541  INFO 5798 --- [main] xyz.scada.testbed.node.Main              : Starting Main v1.0 on peter-Lenovo-ideapad-320-15IKB with PID 5798 (/home/peter/Documents/WORK/ICS-TestBed-Framework/node/target/node-1.0.jar started by peter in /home/peter/Documents/WORK/ICS-TestBed-Framework)
+2020-11-10 21:39:06.550  INFO 5798 --- [main] xyz.scada.testbed.node.Main              : No active profile set, falling back to default profiles: default
+2020-11-10 21:39:06.642  INFO 5798 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@70a9f84e: startup date [Tue Nov 10 21:39:06 CET 2020]; root of context hierarchy
+2020-11-10 21:39:08.731  INFO 5798 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-11-10 21:39:08.766  INFO 5798 --- [main] xyz.scada.testbed.node.Main              : Started Main in 3.16 seconds (JVM running for 4.263)
+2020-11-10 21:39:09.463  INFO 5736 --- [main] xyz.scada.testbed.node.RTU               :  RTU Server started!
+2020-11-10 21:39:11.646  INFO 5798 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   : [TID19] Connecting to: 127.0.0.1:2,404
+2020-11-10 21:39:11.685  INFO 5736 --- [pool-1-thread-1] xyz.scada.testbed.node.RTU               :  Client Connected ID:1
+2020-11-10 21:39:11.691  INFO 5736 --- [pool-1-thread-1] xyz.scada.testbed.node.RTU               :  Handshake complete for ID:1
+2020-11-10 21:39:11.694  INFO 5798 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   : [TID19] Successfully connected
+2020-11-10 21:39:11.694  INFO 5798 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   :  Sent Interrogation Command.
+2020-11-10 21:39:11.717  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: C_IC_NA_1|ACTIVATION_CON
+	Type ID: 100, C_IC_NA_1, Interrogation command
+Cause of transmission: ACTIVATION_CON, test: false, negative con: false
+Originator address: 2, Common address: 3
+IOA: 0
+Qualifier of interrogation: 20
+2020-11-10 21:39:11.718  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@632bd63c
+2020-11-10 21:39:11.719  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: M_SP_NA_1|INTERROGATED_BY_STATION
+	Type ID: 1, M_SP_NA_1, Single-point information without time tag
+Cause of transmission: INTERROGATED_BY_STATION, test: false, negative con: false
+Originator address: 2, Common address: 3
+IOA: 220008
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 270193
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+2020-11-10 21:39:11.719  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@6dec2429
+2020-11-10 21:39:11.720  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@69d3bd4c
+2020-11-10 21:39:11.720  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: M_SP_NA_1|INTERROGATED_BY_STATION
+	Type ID: 1, M_SP_NA_1, Single-point information without time tag
+Cause of transmission: INTERROGATED_BY_STATION, test: false, negative con: false
+Originator address: 2, Common address: 3
+IOA: 9900001
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900002
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900003
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900004
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900005
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900006
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900007
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900008
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900009
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900010
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900011
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900012
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900013
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900014
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900015
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900016
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900017
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900018
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900019
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900020
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+2020-11-10 21:39:11.721  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@2cd12e12
+2020-11-10 21:39:11.721  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@11769782
+2020-11-10 21:39:11.721  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@1d3724e9
+2020-11-10 21:39:11.721  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@697ac3de
+2020-11-10 21:39:11.722  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@4cfed15d
+2020-11-10 21:39:11.722  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@691195c7
+2020-11-10 21:39:11.722  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@4da5e460
+2020-11-10 21:39:11.722  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@727eaa39
+2020-11-10 21:39:11.722  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@48b0e912
+2020-11-10 21:39:11.723  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@2deae26e
+2020-11-10 21:39:11.723  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@4f8e8557
+2020-11-10 21:39:11.723  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@4826d1fd
+2020-11-10 21:39:11.723  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@7915992
+2020-11-10 21:39:11.723  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@7d12329c
+2020-11-10 21:39:11.724  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@460da454
+2020-11-10 21:39:11.724  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@38da2c51
+2020-11-10 21:39:11.724  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@350aaf11
+2020-11-10 21:39:11.724  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@5960fdfe
+2020-11-10 21:39:11.724  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@72e4cd82
+2020-11-10 21:39:11.724  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@1b35df2b
+2020-11-10 21:39:11.725  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: M_SP_NA_1|INTERROGATED_BY_STATION
+	Type ID: 1, M_SP_NA_1, Single-point information without time tag
+Cause of transmission: INTERROGATED_BY_STATION, test: false, negative con: false
+Originator address: 2, Common address: 3
+IOA: 11201050
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270060
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270062
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270069
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270070
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270071
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270073
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270075
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270076
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270083
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270149
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270157
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 15300029
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 15300030
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 15301050
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+2020-11-10 21:39:11.725  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@7b27897b
+2020-11-10 21:39:11.725  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@257604ec
+2020-11-10 21:39:11.726  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@71aa451d
+2020-11-10 21:39:11.726  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@44d31084
+2020-11-10 21:39:11.726  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@3f82534
+2020-11-10 21:39:11.726  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@16bc10c3
+2020-11-10 21:39:11.726  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@359d3da4
+2020-11-10 21:39:11.726  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@69164ca3
+2020-11-10 21:39:11.727  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@2b051530
+2020-11-10 21:39:11.727  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@5dc9329b
+2020-11-10 21:39:11.727  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@1e5549b
+2020-11-10 21:39:11.727  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@5a4d7350
+2020-11-10 21:39:11.727  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@596251bc
+2020-11-10 21:39:11.727  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@4d2bede1
+2020-11-10 21:39:11.727  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@66412953
+2020-11-10 21:39:11.728  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: M_DP_NA_1|INTERROGATED_BY_STATION
+	Type ID: 3, M_DP_NA_1, Double-point information without time tag
+Cause of transmission: INTERROGATED_BY_STATION, test: false, negative con: false
+Originator address: 2, Common address: 3
+IOA: 231000
+Double Point: OFF, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 231100
+Double Point: OFF, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 231226
+Double Point: OFF, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 371000
+Double Point: OFF, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 371106
+Double Point: OFF, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 371107
+Double Point: OFF, blocked: false, substituted: false, not topical: false, invalid: false
+2020-11-10 21:39:11.729  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@1c8345d1
+2020-11-10 21:39:11.729  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@ed5f745
+2020-11-10 21:39:11.729  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@61b15c7d
+2020-11-10 21:39:11.729  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@e70afb2
+2020-11-10 21:39:11.729  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@85bce60
+2020-11-10 21:39:11.730  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@29156ff1
+2020-11-10 21:39:11.730  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: M_ST_NA_1|INTERROGATED_BY_STATION
+	Type ID: 5, M_ST_NA_1, Step position information
+Cause of transmission: INTERROGATED_BY_STATION, test: false, negative con: false
+Originator address: 2, Common address: 3
+IOA: 11273701
+Value with transient state, value: -64, transient state: false
+Quality, overflow: false, blocked: false, substituted: false, not topical: true, invalid: false
+2020-11-10 21:39:11.730  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@422c9c1a
+2020-11-10 21:39:11.731  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: C_IC_NA_1|ACTIVATION_TERMINATION
+	Type ID: 100, C_IC_NA_1, Interrogation command
+Cause of transmission: ACTIVATION_TERMINATION, test: false, negative con: false
+Originator address: 2, Common address: 3
+IOA: 0
+Qualifier of interrogation: 20
+2020-11-10 21:39:11.731  INFO 5798 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@49aab6d2
+2020-11-10 21:40:47.096  INFO 5736 --- [Thread-5] xyz.scada.testbed.node.RTU               :  Connection ID:1 closed. Socket was closed by remote host.
+2020-11-10 21:41:33.227  INFO 6124 --- [main] xyz.scada.testbed.node.Main              : Starting Main v1.0 on peter-Lenovo-ideapad-320-15IKB with PID 6124 (/home/peter/Documents/WORK/ICS-TestBed-Framework/node/target/node-1.0.jar started by peter in /home/peter/Documents/WORK/ICS-TestBed-Framework)
+2020-11-10 21:41:33.236  INFO 6124 --- [main] xyz.scada.testbed.node.Main              : No active profile set, falling back to default profiles: default
+2020-11-10 21:41:33.336  INFO 6124 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b9e255: startup date [Tue Nov 10 21:41:33 CET 2020]; root of context hierarchy
+2020-11-10 21:41:35.610  INFO 6175 --- [main] xyz.scada.testbed.node.Main              : Starting Main v1.0 on peter-Lenovo-ideapad-320-15IKB with PID 6175 (/home/peter/Documents/WORK/ICS-TestBed-Framework/node/target/node-1.0.jar started by peter in /home/peter/Documents/WORK/ICS-TestBed-Framework)
+2020-11-10 21:41:35.621  INFO 6175 --- [main] xyz.scada.testbed.node.Main              : No active profile set, falling back to default profiles: default
+2020-11-10 21:41:35.744  INFO 6175 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@69379752: startup date [Tue Nov 10 21:41:35 CET 2020]; root of context hierarchy
+2020-11-10 21:41:36.427  INFO 6124 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-11-10 21:41:36.464  INFO 6124 --- [main] xyz.scada.testbed.node.Main              : Started Main in 4.078 seconds (JVM running for 4.825)
+2020-11-10 21:41:38.155  INFO 6175 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-11-10 21:41:38.182  INFO 6175 --- [main] xyz.scada.testbed.node.Main              : Started Main in 3.877 seconds (JVM running for 4.874)
+2020-11-10 21:41:40.901  INFO 6175 --- [main] xyz.scada.testbed.node.RTU               :  RTU Server started!
+2020-11-10 21:41:43.960  INFO 6124 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   : [TID19] Connecting to: 127.0.0.1:2,404
+2020-11-10 21:41:43.988  INFO 6175 --- [pool-1-thread-1] xyz.scada.testbed.node.RTU               :  Client Connected ID:1
+2020-11-10 21:41:43.996  INFO 6124 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   : [TID19] Successfully connected
+2020-11-10 21:41:43.996  INFO 6124 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   :  Sent Interrogation Command.
+2020-11-10 21:41:43.998  INFO 6175 --- [pool-1-thread-1] xyz.scada.testbed.node.RTU               :  Handshake complete for ID:1
+2020-11-10 21:41:44.019  INFO 6124 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: C_IC_NA_1|ACTIVATION_CON
+	Type ID: 100, C_IC_NA_1, Interrogation command
+Cause of transmission: ACTIVATION_CON, test: false, negative con: false
+Originator address: 2, Common address: 3
+IOA: 0
+Qualifier of interrogation: 20
+2020-11-10 21:41:44.020  INFO 6124 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@1a4ce091
+2020-11-10 21:41:44.021  INFO 6124 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: F_SG_NA_1|INTERROGATED_BY_STATION
+	Type ID: 125, F_SG_NA_1, Segment
+Cause of transmission: INTERROGATED_BY_STATION, test: false, negative con: false
+Originator address: 2, Common address: 3
+IOA: 220008
+Name of file: 28928
+Name of section: 31
+File segment of length: 4
+IOA: 512
+Name of file: 5121
+Name of section: 20
+File segment of length: 2
+2020-11-10 21:41:44.021  INFO 6124 --- [Thread-4] x.s.testbed.node.HMIConnectInterrogate   :  Received connection closed signal. Reason: Message does not start with 0x68
+2020-11-10 21:41:44.022  INFO 6175 --- [Thread-5] xyz.scada.testbed.node.RTU               :  Connection ID:1 closed. Connection reset
+2020-11-10 21:45:56.531  INFO 6612 --- [main] xyz.scada.testbed.node.Main              : Starting Main v1.0 on peter-Lenovo-ideapad-320-15IKB with PID 6612 (/home/peter/Documents/WORK/ICS-TestBed-Framework/node/target/node-1.0.jar started by peter in /home/peter/Documents/WORK/ICS-TestBed-Framework)
+2020-11-10 21:45:56.540  INFO 6612 --- [main] xyz.scada.testbed.node.Main              : No active profile set, falling back to default profiles: default
+2020-11-10 21:45:56.622  INFO 6612 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@48a242ce: startup date [Tue Nov 10 21:45:56 CET 2020]; root of context hierarchy
+2020-11-10 21:45:59.063  INFO 6612 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-11-10 21:45:59.119  INFO 6612 --- [main] xyz.scada.testbed.node.Main              : Started Main in 3.455 seconds (JVM running for 4.232)
+2020-11-10 21:45:59.986  INFO 6647 --- [main] xyz.scada.testbed.node.Main              : Starting Main v1.0 on peter-Lenovo-ideapad-320-15IKB with PID 6647 (/home/peter/Documents/WORK/ICS-TestBed-Framework/node/target/node-1.0.jar started by peter in /home/peter/Documents/WORK/ICS-TestBed-Framework)
+2020-11-10 21:45:59.997  INFO 6647 --- [main] xyz.scada.testbed.node.Main              : No active profile set, falling back to default profiles: default
+2020-11-10 21:46:00.098  INFO 6647 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@17baae6e: startup date [Tue Nov 10 21:46:00 CET 2020]; root of context hierarchy
+2020-11-10 21:46:01.452  INFO 6612 --- [main] xyz.scada.testbed.node.RTU               :  RTU Server started!
+2020-11-10 21:46:02.396  INFO 6647 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-11-10 21:46:02.427  INFO 6647 --- [main] xyz.scada.testbed.node.Main              : Started Main in 3.311 seconds (JVM running for 4.545)
+2020-11-10 21:46:04.269  INFO 6647 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   : [TID19] Connecting to: 127.0.0.1:2,404
+2020-11-10 21:46:04.299  INFO 6612 --- [pool-1-thread-1] xyz.scada.testbed.node.RTU               :  Client Connected ID:1
+2020-11-10 21:46:04.305  INFO 6612 --- [pool-1-thread-1] xyz.scada.testbed.node.RTU               :  Handshake complete for ID:1
+2020-11-10 21:46:04.307  INFO 6647 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   : [TID19] Successfully connected
+2020-11-10 21:46:04.307  INFO 6647 --- [Thread-3] x.s.testbed.node.HMIConnectInterrogate   :  Sent Interrogation Command.
+2020-11-10 21:46:04.330  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: C_RC_NA_1|UNKNOWN_TYPE_ID
+	Type ID: 47, C_RC_NA_1, Regulating step command
+Cause of transmission: UNKNOWN_TYPE_ID, test: false, negative con: true
+Originator address: 2, Common address: 3
+IOA: 11272301
+Regulating step command state: NEXT_STEP_HIGHER, selected: false, qualifier: 0
+2020-11-10 21:46:04.331  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@5aba38da
+2020-11-10 21:46:04.334  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: C_IC_NA_1|ACTIVATION_CON
+	Type ID: 100, C_IC_NA_1, Interrogation command
+Cause of transmission: ACTIVATION_CON, test: false, negative con: false
+Originator address: 2, Common address: 3
+IOA: 0
+Qualifier of interrogation: 20
+2020-11-10 21:46:04.335  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@547dddfd
+2020-11-10 21:46:04.336  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: M_SP_NA_1|INTERROGATED_BY_STATION
+	Type ID: 1, M_SP_NA_1, Single-point information without time tag
+Cause of transmission: INTERROGATED_BY_STATION, test: false, negative con: false
+Originator address: 2, Common address: 3
+IOA: 220008
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 270193
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+2020-11-10 21:46:04.337  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@504253aa
+2020-11-10 21:46:04.337  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@1540d7c6
+2020-11-10 21:46:04.338  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: M_SP_NA_1|INTERROGATED_BY_STATION
+	Type ID: 1, M_SP_NA_1, Single-point information without time tag
+Cause of transmission: INTERROGATED_BY_STATION, test: false, negative con: false
+Originator address: 2, Common address: 3
+IOA: 9900001
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900002
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900003
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900004
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900005
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900006
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900007
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900008
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900009
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900010
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900011
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900012
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900013
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900014
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900015
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900016
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900017
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900018
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900019
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 9900020
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+2020-11-10 21:46:04.339  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@1e37415c
+2020-11-10 21:46:04.339  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@241fe552
+2020-11-10 21:46:04.339  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@66822d78
+2020-11-10 21:46:04.339  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@756f2889
+2020-11-10 21:46:04.340  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@51f6aad9
+2020-11-10 21:46:04.340  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@a98e0c0
+2020-11-10 21:46:04.340  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@7d86e506
+2020-11-10 21:46:04.340  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@7121b15f
+2020-11-10 21:46:04.341  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@15657dc0
+2020-11-10 21:46:04.341  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@5836114c
+2020-11-10 21:46:04.341  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@12526199
+2020-11-10 21:46:04.341  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@6e8591c5
+2020-11-10 21:46:04.342  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@50b07aa8
+2020-11-10 21:46:04.342  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@38e4bd83
+2020-11-10 21:46:04.342  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@39bb5daf
+2020-11-10 21:46:04.343  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@7b72f8e4
+2020-11-10 21:46:04.343  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@28c4a818
+2020-11-10 21:46:04.343  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@35511026
+2020-11-10 21:46:04.344  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@56646506
+2020-11-10 21:46:04.344  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@3a3d02f6
+2020-11-10 21:46:04.345  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: M_SP_NA_1|INTERROGATED_BY_STATION
+	Type ID: 1, M_SP_NA_1, Single-point information without time tag
+Cause of transmission: INTERROGATED_BY_STATION, test: false, negative con: false
+Originator address: 2, Common address: 3
+IOA: 11201050
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270060
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270062
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270069
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270070
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270071
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270073
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270075
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270076
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270083
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270149
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 11270157
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 15300029
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 15300030
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 15301050
+Single Point, is on: false, blocked: false, substituted: false, not topical: false, invalid: false
+2020-11-10 21:46:04.345  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@3734f9c1
+2020-11-10 21:46:04.345  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@a590f21
+2020-11-10 21:46:04.346  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@7f600739
+2020-11-10 21:46:04.346  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@2d188091
+2020-11-10 21:46:04.346  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@3d729e02
+2020-11-10 21:46:04.346  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@7f10be8a
+2020-11-10 21:46:04.347  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@b6279e
+2020-11-10 21:46:04.347  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@69c32311
+2020-11-10 21:46:04.347  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@40e832a5
+2020-11-10 21:46:04.347  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@3af630dc
+2020-11-10 21:46:04.348  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@b4d7acb
+2020-11-10 21:46:04.348  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@7b661b18
+2020-11-10 21:46:04.348  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@7a1a73cb
+2020-11-10 21:46:04.348  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@7161dc84
+2020-11-10 21:46:04.348  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@111a6b41
+2020-11-10 21:46:04.350  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: M_DP_NA_1|INTERROGATED_BY_STATION
+	Type ID: 3, M_DP_NA_1, Double-point information without time tag
+Cause of transmission: INTERROGATED_BY_STATION, test: false, negative con: false
+Originator address: 2, Common address: 3
+IOA: 231000
+Double Point: OFF, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 231100
+Double Point: OFF, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 231226
+Double Point: OFF, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 371000
+Double Point: OFF, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 371106
+Double Point: OFF, blocked: false, substituted: false, not topical: false, invalid: false
+IOA: 371107
+Double Point: OFF, blocked: false, substituted: false, not topical: false, invalid: false
+2020-11-10 21:46:04.351  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@73c2a81c
+2020-11-10 21:46:04.351  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@c38df1c
+2020-11-10 21:46:04.351  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@4e3afdb9
+2020-11-10 21:46:04.351  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@6c92eacb
+2020-11-10 21:46:04.351  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@a763d0d
+2020-11-10 21:46:04.352  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@407cd360
+2020-11-10 21:46:04.352  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: M_ST_NA_1|INTERROGATED_BY_STATION
+	Type ID: 5, M_ST_NA_1, Step position information
+Cause of transmission: INTERROGATED_BY_STATION, test: false, negative con: false
+Originator address: 2, Common address: 3
+IOA: 11273701
+Value with transient state, value: -64, transient state: false
+Quality, overflow: false, blocked: false, substituted: false, not topical: true, invalid: false
+2020-11-10 21:46:04.353  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@593239e3
+2020-11-10 21:46:04.353  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [TID24] 127.0.0.1:2,404 ASDU: C_IC_NA_1|ACTIVATION_TERMINATION
+	Type ID: 100, C_IC_NA_1, Interrogation command
+Cause of transmission: ACTIVATION_TERMINATION, test: false, negative con: false
+Originator address: 2, Common address: 3
+IOA: 0
+Qualifier of interrogation: 20
+2020-11-10 21:46:04.354  INFO 6647 --- [pool-5-thread-1] x.s.testbed.node.HMIConnectInterrogate   : [Lorg.openmuc.j60870.InformationElement;@228d54bc
+2020-11-10 21:46:12.371  INFO 6612 --- [Thread-5] xyz.scada.testbed.node.RTU               :  Connection ID:1 closed. Socket was closed by remote host.
