@@ -1,10 +1,14 @@
 package xyz.scada.testbed.node;
 
 import org.openmuc.j60870.*;
+import xyz.scada.testbed.node.dbwork.IOA;
+import xyz.scada.testbed.node.dbwork.dbWork;
 
 import java.io.EOFException;
 import java.io.IOException;
-import java.sql.Time;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeoutException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -26,6 +30,11 @@ public class RTU {
 
             private final Connection connection;
             private final int connectionId;
+            private boolean initialization = false;
+            private Integer ASdu = null;
+            private ArrayList<IOA> IOAs = new ArrayList<IOA>();
+            Map<Integer, IOA> IOAs_mapped = new HashMap<Integer, IOA>();
+            private dbWork dbdata;
 
             private boolean[] init = {false, false}; // activation / termination false
 
@@ -37,14 +46,68 @@ public class RTU {
             public void newASdu(ASdu aSdu) {
                 InformationObject info[] = aSdu.getInformationObjects();
 
-                SubstationToScada_Normal(aSdu);
+//                SubstationToScada_Normal(aSdu);
 //                iec104_first(aSdu);
+                try {
+                    testing(aSdu);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
 
             }
 
             public void connectionClosed(IOException e) {
                 LOGGER.log(Level.INFO, " Connection ID:{0} closed. {1}", new Object[]{connectionId, e.getMessage()});
             }
+
+            public void testing(ASdu aSdu) throws IOException {
+                if (!this.initialization){
+                    Integer[][] knownIOA ={
+                            {0},//global
+                            {1,2,3,4},//without time
+                            {11,12,13,14}//with time56
+                    };
+                    int type = 0;
+                    for (Integer[] ioaS : knownIOA){
+                        for (Integer ioa: ioaS){
+                            switch (type){
+                                case 0:
+                                    this.IOAs.add(new IOA(ioa, IOA.StoredInfo.interrogation, aSdu.getCommonAddress()));
+                                    break;
+                                case 1:
+                                    this.IOAs.add(new IOA(ioa, IOA.StoredInfo.woTime, aSdu.getCommonAddress()));
+                                    break;
+                                case 2:
+                                    this.IOAs.add(new IOA(ioa, IOA.StoredInfo.wTime65, aSdu.getCommonAddress()));
+                                    break;
+                            }
+                        }
+                        type++;
+                    }
+                    for (IOA ioa : IOAs){
+                        IOAs_mapped.put(ioa.getIOA(), ioa);
+                    }
+                    this.dbdata = new dbWork(this.IOAs, connection);
+
+                    this.initialization = true;
+                }
+
+                dbdata.rewriteSend(aSdu);
+
+//                switch (aSdu.getTypeIdentification()) {
+//                    case C_IC_NA_1:
+//                        dbdata.introgen(aSdu);
+//                        break;
+//                    case C_SC_NA_1: case C_DC_NA_1: case C_RC_NA_1: case C_BO_NA_1: case C_SE_NA_1: case C_SE_NB_1: case C_SE_NC_1:
+//
+//                        break;
+//                    default:
+//                        connection.sendUnknown(aSdu, Connection.UnknownInfo.TID);
+//                        break;
+//                }
+            }
+
+
 
             public void SubstationToScada_Normal(ASdu aSdu) {
                 Integer[] knownASDU = {3};
@@ -141,6 +204,10 @@ public class RTU {
                 TypeId[] NormalTypesOfIOA = { TypeId.M_SP_NA_1, TypeId.M_DP_NA_1, TypeId.M_ST_NA_1, TypeId.M_BO_NA_1, TypeId.M_ME_NA_1,
                                               TypeId.M_ME_NB_1, TypeId.M_ME_NC_1, TypeId.M_SP_TB_1, TypeId.M_DP_TB_1, TypeId.M_ST_TB_1,
                                               TypeId.M_BO_TB_1, TypeId.M_ME_TD_1, TypeId.M_ME_TE_1, TypeId.M_ME_TF_1};
+
+
+
+
 //                TypeId[] SpecialTypesOfIOA = {  TypeId.C_IC_NA_1,TypeId.C_SC_NA_1,TypeId.C_DC_NA_1,TypeId.C_RC_NA_1,
 //                                                TypeId.C_BO_NA_1,TypeId.C_SE_NA_1,TypeId.C_SE_NB_1,TypeId.C_SE_NC_1};
 
@@ -214,6 +281,7 @@ public class RTU {
                                 break;// nothing to be done here
 
                         }
+
                         if (aSdu.getCauseOfTransmission() == CauseOfTransmission.ACTIVATION && this.init[1]) {
                             send = new ASdu(aSdu.getTypeIdentification(), false, CauseOfTransmission.ACTIVATION_TERMINATION, false, false,
                                     aSdu.getOriginatorAddress(), aSdu.getCommonAddress(),aSdu.getInformationObjects());

@@ -56,6 +56,7 @@ org/openmuc/j60870/Connection$ConnectionReader$2.class
 org/openmuc/j60870/internal/cli/CliParameter.class
 org/openmuc/j60870/CommonBuilder.class
 org/openmuc/j60870/internal/cli/FlagCliParameter.class
+org/openmuc/j60870/Connection$UnknownInfo.class
 org/openmuc/j60870/IeFileSegment.class
 org/openmuc/j60870/internal/cli/IntCliParameter.class
 org/openmuc/j60870/internal/cli/CliParser.class

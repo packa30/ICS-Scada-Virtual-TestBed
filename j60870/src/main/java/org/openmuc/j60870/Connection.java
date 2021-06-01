@@ -1268,4 +1268,41 @@ public class Connection {
         return true;
     }
 
+    public enum  UnknownInfo{
+        ASDU,
+        COT,
+        TID,
+        IOA
+
+    }
+
+    public void sendUnknown(ASdu aSdu, UnknownInfo info) throws IOException {
+        CauseOfTransmission cause;
+        switch (info){
+            case IOA:
+                cause = CauseOfTransmission.UNKNOWN_INFORMATION_OBJECT_ADDRESS;
+                break;
+            case TID:
+                cause = CauseOfTransmission.UNKNOWN_TYPE_ID;
+                break;
+            case COT:
+                cause = CauseOfTransmission.UNKNOWN_CAUSE_OF_TRANSMISSION;
+                break;
+            case ASDU:
+                cause = CauseOfTransmission.UNKNOWN_COMMON_ADDRESS_OF_ASDU;
+                break;
+            default:
+                cause = null;
+                break;
+        }
+        if(cause != null){
+            ASdu send = new ASdu(aSdu.getTypeIdentification(), false, cause,
+                    false, true, aSdu.getOriginatorAddress(), aSdu.getCommonAddress(),aSdu.getInformationObjects());
+            send(send);
+            System.out.println(send.toString());
+        }else {
+            System.out.println("Warning UNKNOWN CAUSE was empty -> SHOULD NEVER HAPPEN");
+        }
+    }
+
 }
