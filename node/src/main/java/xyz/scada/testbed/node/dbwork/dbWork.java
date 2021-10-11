@@ -141,10 +141,18 @@ public class dbWork {
     }
 
     public void introgen( ASdu aSdu) throws IOException {
+        IOA initiator = this.IOAm.get(aSdu.getInformationObjects()[0].getInformationObjectAddress());
         if(aSdu.getCauseOfTransmission() != CauseOfTransmission.ACTIVATION){
             connection.sendUnknown(aSdu, Connection.UnknownInfo.COT);
             return;
-        }else{
+        }else if (initiator == null){
+            connection.sendUnknown(aSdu, Connection.UnknownInfo.IOA);
+            return;
+        }else if(initiator.interrogation == null){
+            connection.sendUnknown(aSdu, Connection.UnknownInfo.IOA);
+            return;
+        }
+        else{
             connection.sendConfirmation(aSdu);
         }
         ArrayList<ASdu> aSdu_woTime = new ArrayList<ASdu>();

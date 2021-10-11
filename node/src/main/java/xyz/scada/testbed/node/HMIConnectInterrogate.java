@@ -235,35 +235,42 @@ public class HMIConnectInterrogate extends Thread {
     public void testing(ClientEventListener Listener){
 
         try {
-            clientConnection.interrogation(commonAddress, CauseOfTransmission.ACTIVATION, new IeQualifierOfInterrogation(20));//init
-            Thread.sleep(time_sleep);
+            while (true){
 
-            clientConnection.singleCommand(commonAddress, CauseOfTransmission.ACTIVATION, 2, new IeSingleCommand(true, 0, false));
-            Thread.sleep(time_sleep);
-
-            clientConnection.doubleCommand(commonAddress, CauseOfTransmission.ACTIVATION, 1, new IeDoubleCommand(IeDoubleCommand.DoubleCommandState.OFF, 0, false));
-            Thread.sleep(time_sleep);
-
-            clientConnection.regulatingStepCommand(commonAddress, CauseOfTransmission.ACTIVATION, 1, new IeRegulatingStepCommand(IeRegulatingStepCommand.StepCommandState.NEXT_STEP_HIGHER, 0, false));
-            Thread.sleep(time_sleep);
-
-            clientConnection.bitStringCommand(commonAddress, CauseOfTransmission.ACTIVATION, 3, new IeBinaryStateInformation(1<<25 ));
-            Thread.sleep(time_sleep);
-
-            clientConnection.setNormalizedValueCommand(commonAddress, CauseOfTransmission.ACTIVATION, 1, new IeNormalizedValue(1024), new IeQualifierOfSetPointCommand(0, false));
-            Thread.sleep(time_sleep);
-
-            clientConnection.setScaledValueCommand(commonAddress, CauseOfTransmission.ACTIVATION, 3, new IeScaledValue(123), new IeQualifierOfSetPointCommand(0, false));
-            Thread.sleep(time_sleep);
-
-            clientConnection.setShortFloatCommand(commonAddress, CauseOfTransmission.ACTIVATION, 1, new IeShortFloat((float)3.14), new IeQualifierOfSetPointCommand(0, false));
-            Thread.sleep(time_sleep);
-
-
-            while (true) {
-
-                clientConnection.interrogation(commonAddress, CauseOfTransmission.ACTIVATION, new IeQualifierOfInterrogation(20));//check changes
+                clientConnection.interrogation(commonAddress, CauseOfTransmission.ACTIVATION, new IeQualifierOfInterrogation(20));//init
                 Thread.sleep(time_sleep);
+
+                clientConnection.singleCommand(commonAddress, CauseOfTransmission.ACTIVATION, 2, new IeSingleCommand(true, 0, false));
+                Thread.sleep(time_sleep);
+
+                clientConnection.doubleCommand(commonAddress, CauseOfTransmission.ACTIVATION, 1, new IeDoubleCommand(IeDoubleCommand.DoubleCommandState.OFF, 0, false));
+                Thread.sleep(time_sleep);
+
+                clientConnection.regulatingStepCommand(commonAddress, CauseOfTransmission.ACTIVATION, 1, new IeRegulatingStepCommand(IeRegulatingStepCommand.StepCommandState.NEXT_STEP_HIGHER, 0, false));
+                Thread.sleep(time_sleep);
+
+                clientConnection.bitStringCommand(commonAddress, CauseOfTransmission.ACTIVATION, 3, new IeBinaryStateInformation(1<<25 ));
+                Thread.sleep(time_sleep);
+
+                clientConnection.setNormalizedValueCommand(commonAddress, CauseOfTransmission.ACTIVATION, 1, new IeNormalizedValue(1024), new IeQualifierOfSetPointCommand(0, false));
+                Thread.sleep(time_sleep);
+
+                clientConnection.setScaledValueCommand(commonAddress, CauseOfTransmission.ACTIVATION, 3, new IeScaledValue(123), new IeQualifierOfSetPointCommand(0, false));
+                Thread.sleep(time_sleep);
+
+                clientConnection.setShortFloatCommand(commonAddress, CauseOfTransmission.ACTIVATION, 1, new IeShortFloat((float)3.14), new IeQualifierOfSetPointCommand(0, false));
+                Thread.sleep(time_sleep);
+
+                int loops = 0;
+                while (true) {
+
+                    clientConnection.interrogation(commonAddress, CauseOfTransmission.ACTIVATION, new IeQualifierOfInterrogation(20));//check changes
+                    Thread.sleep(10000);
+                    loops++;
+                    if(loops >= 360){
+                        break;
+                    }
+                }
 
             }
         } catch (IOException e) {

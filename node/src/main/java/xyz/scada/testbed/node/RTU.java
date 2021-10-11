@@ -63,7 +63,7 @@ public class RTU {
             public void testing(ASdu aSdu) throws IOException {
                 if (!this.initialization){
                     Integer[][] knownIOA ={
-                            {0},//global
+                            {aSdu.getInformationObjects()[0].getInformationObjectAddress()},//global
                             {1,2,3,4},//without time
                             {11,12,13,14}//with time56
                     };
@@ -72,13 +72,13 @@ public class RTU {
                         for (Integer ioa: ioaS){
                             switch (type){
                                 case 0:
-                                    this.IOAs.add(new IOA(ioa, IOA.StoredInfo.interrogation, aSdu.getCommonAddress()));
+                                    this.IOAs.add(new IOA(ioa, IOA.StoredInfo.interrogation, aSdu.getOriginatorAddress()));
                                     break;
                                 case 1:
-                                    this.IOAs.add(new IOA(ioa, IOA.StoredInfo.woTime, aSdu.getCommonAddress()));
+                                    this.IOAs.add(new IOA(ioa, IOA.StoredInfo.woTime, aSdu.getOriginatorAddress()));
                                     break;
                                 case 2:
-                                    this.IOAs.add(new IOA(ioa, IOA.StoredInfo.wTime65, aSdu.getCommonAddress()));
+                                    this.IOAs.add(new IOA(ioa, IOA.StoredInfo.wTime65, aSdu.getOriginatorAddress()));
                                     break;
                             }
                         }
